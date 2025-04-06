@@ -1,5 +1,5 @@
-import { NgStyle } from '@angular/common';
 import { Component } from '@angular/core';
+import { NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aravindkumar-portfolio';
-  
+
   theme: string = "bi bi-lightbulb-fill";
   themeLight: boolean = true;
   navStyle: string = "nav-light";
@@ -65,5 +65,4 @@ export class AppComponent {
       this.themeLight = true;
     }
   }
-
 }
