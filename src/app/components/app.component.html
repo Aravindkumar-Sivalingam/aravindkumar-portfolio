@@ -1,0 +1,339 @@
+<body [class]="bodyStyle">
+
+  <nav id="navbar-scroll" [class]="navStyle" class="navbar navbar-expand-lg sticky-top px-3 mb-3">
+    <div class="container">
+      <button [class]="navButtonStyle" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div>
+        <a (click)="toggleTheme()" class="theme-switcher">
+          <i [class]="theme"></i>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+        <!-- <a class="navbar-brand" href="/home">Navbar</a> -->
+        <ul class="nav nav-pills" style="font-weight: bold;">
+          <li class="nav-item">
+            <a [class]="navItemStyle" class="nav-link" href="#scrollspyAbout">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a [class]="navItemStyle" class="nav-link" href="#scrollspyExperience">WORK EXPERIENCE</a>
+          </li>
+          <li class="nav-item">
+            <a [class]="navItemStyle" class="nav-link" href="#scrollspyProjects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a [class]="navItemStyle" class="nav-link" href="#scrollspyCertification">CERTIFICATION</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+
+    <!-- Header Section -->
+    <div class="container proDiv">
+      <h1 [class]="nameStyle" class="text-center">Aravindkumar Sivalingam</h1>
+      <p [class]="jobTitle" class="text-center">Java Fullstack Developer</p>
+      <hr id="scrollspyAbout" [ngStyle]="{'background-color': themeLight ? '#58355E' : '#E1F2FE'}" />
+    </div>
+
+    <!-- About Section -->
+    <div class="container proDiv">
+      <div class="row">
+        <div class="col-lg-5">
+          <h1 [class]="aboutStyle" class="text-center">ABOUT</h1>
+        </div>
+        <div class="col-lg-7">
+          <p [class]="aboutDesc" style="text-align: justify;">Java Full Stack Developer with 5+ years of professional
+            experience in developing Enterprise Applications and
+            working on the complete Software Development Life Cycle
+            (SDLC). Also having hands on experience in Spring Boot,
+            Apache KAKFA, Microservice, Angular, DevOps and CI/CD.
+            Additionally well adaptive with Agile: Scrum methodology.
+          </p>
+        </div>
+        <hr id="scrollspyExperience" [ngStyle]="{'background-color': themeLight ? '#58355E' : '#E1F2FE'}" />
+      </div>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="container proDiv">
+      <div class="row">
+        <h1 [class]="expHead" class="text-center mt-5">WORK EXPERIENCE</h1>
+        <div class="col-lg-8">
+          <ul [class]="expDesc" style="text-align: justify;">
+            <li>Developed applications to validate batches, processor
+              pause and resume events to handle both delta batch and
+              online processing from mainframe.</li>
+            <li>Responsibilities includes integrating Kafka for real-time
+              data processing, developing scalable backend systems,
+              and ensuring seamless communication between front end
+              and backend services.</li>
+            <li>Involved in design & architect meeting of ODC project and
+              developed more than 6+ KAFKA applications and 3+
+              supporting apps that processes customer demographics,
+              account details, memo balances, running balances and
+              transaction details from mainframe and stores into ODC
+              cache(MongoDB).</li>
+            <li>Also developed DLT app to process all errored out KAFKA
+              messages and marks document as stale in cache.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h1 [class]="expTitle">Senior Associate Consultant - Infosys <br> <span class="project">Operational Data Cache
+              - Citizens Bank</span></h1>
+        </div>
+
+        <div class="col-lg-8">
+          <ul [class]="expDesc" style="text-align: justify;">
+            <li>Developed UI component for enquire and update REST
+              API's to process income capture details of the customer.</li>
+            <li>Collaborating with cross-functional teams, optimizing
+              system performance, and addressing data consistency
+              challenges with strong knowledge of backend
+              architecture, microservices, and data modeling principles.</li>
+            <li>Involved in designing, implementing, and maintaining serverside applications with a focus on Kafka
+              messaging(Producer
+              and Consumer) and database technologies. To handle huge
+              data transfer from one medium to another.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h1 [class]="expTitle">Associate Consultant - Infosys<br> <span class="project">Operational
+              Data Cache - Citizens Bank</span></h1>
+        </div>
+
+        <div class="col-lg-8">
+          <ul [class]="expDesc" style="text-align: justify;">
+            <li>Developed admin modules in Consumer Data Flow
+              application with Angular, Java and Spring Boot.</li>
+            <li>Developed 'Merger & Acquisition' UI components and
+              services which interacts with 'Treaty Manager' and
+              'Orchestration Framework' application via A-sync call to
+              validate and process the data according to the client Id.</li>
+            <li>Developed 'R2Retro Error Page' module to visualize the
+              errors of retro tape Implemented CI/CD through Azure
+              DevOps for Consumer Data Flow application Implemented
+              the integration component for modules in application.</li>
+            <li>Responsible for debugging and fixing the defects raised in
+              application.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h1 [class]="expTitle">Senior System Engineer - TCS <br> <span class="project">Consumer
+              Data
+              Flow - SwissRe</span></h1>
+        </div>
+
+        <div class="col-lg-8">
+          <ul [class]="expDesc" style="text-align: justify;">
+            <li>Created rest APIs for review processing of message
+              management tapes with different modules such
+              'Incidents', 'Message Search' and 'Benefit Summary'.</li>
+            <li>Developed 'Export to Excel' module using Apache POI
+              which generated the excel file according to Pre-Posting
+              details of the message management tape.</li>
+            <li>Implemented Wildcard Search and Sorting logic for
+              message management application.</li>
+            <li>Worked on implementing the validation layer for some
+              parts of application using spring boot annotations.</li>
+            <li>Responsible for debugging and fixing the defects raised in
+              application.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h1 [class]="expTitle">System Engineer - TCS <br> <span class="project">Message Management
+              -
+              SwissRe</span></h1>
+        </div>
+
+        <div class="col-lg-8">
+          <ul [class]="expDesc" style="text-align: justify;">
+            <li>Worked on implementing business logic layer for some
+              parts of application using spring boot annotations.</li>
+            <li>Responsible for debugging and fixing the defects raised in
+              application.</li>
+            <li>Involved in testing the modules of application and
+              documentation of test cases.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h1 [class]="expTitle" class="last">System Engineer Trainee - TCS
+            <br> <span class="project">Life Policy
+              Group - SwissRe</span>
+          </h1>
+        </div>
+        <hr id="scrollspyProjects" [ngStyle]="{'background-color': themeLight ? '#58355E' : '#E1F2FE'}" />
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container proDiv">
+      <div class="row">
+        <h1 [class]="expHead" class="text-center">PROJECTS</h1>
+        <div class="col-lg-12">
+          <div id="carouselProjects" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <div class="container"> <!-- Project 1 Green Vally School -->
+                  <div class="card text-center proCard">
+                    <div [class]="cardHeadStyle" class="card-header" style="font-weight: bold;">
+                      Green Vally School
+                    </div>
+                    <div [class]="cardBodyStyle" class="card-body">
+                      <img class="card-title" src="/green-vally-web-app.png" alt="Green Vally Web App" />
+                      <p class="card-text">A dynamic and user-friendly web application tailored for school
+                        environments. The application provides essential features such as authentication, data
+                        management, and functionalities, enabling students, teachers, and administrators to seamlessly access and manage
+                        school-related information.</p>
+                    </div>
+                    <div [class]="cardFooterStyle" class="card-footer">
+                      Technologies: Angular, Bootstrap, Java8, Spring Boot, REST Api, MongoDB,
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="container"> <!-- Project 2 Disease Predication -->
+                  <div class="card text-center proCard">
+                    <div [class]="cardHeadStyle" class="card-header" style="font-weight: bold;">
+                      Disease prediction using machine learning over big data
+                    </div>
+                    <div [class]="cardBodyStyle" class="card-body">
+                      <img class="card-title" src="/disease-prediction.png" alt="Disease Prediction" />
+                      <p class="card-text py-3">We streamlined machine learning
+                        algorithms for effective prediction of
+                        chronic disease outbreak in disease frequent communities.</p>
+                    </div>
+                    <div [class]="cardFooterStyle" class="card-footer">
+                      Technologies: Python, ML(Algorithms - CNN, RNN), Apache Hadoop, Apache Pig, Apache Hive, BigData,
+                      HDFS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="container"> <!-- Project 3 Straw Counter -->
+                  <div class="card text-center proCard">
+                    <div [class]="cardHeadStyle" class="card-header" style="font-weight: bold;">
+                      Straw Counter
+                    </div>
+                    <div [class]="cardBodyStyle" class="card-body">
+                      <img class="card-title" src="/straw-counter.jpg" alt="Straw Counter" />
+                      <p class="card-text py-3">Identifies the number of straws
+                        present in the bunch using the Circle
+                        Hough Transform technique and
+                        edge detection algorithm.</p>
+                    </div>
+                    <div [class]="cardFooterStyle" class="card-footer">
+                      Technologies: Python, Image Processing, Circle Hough Transform, Edge Detection, OpenCV.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="container"> <!-- Project 4 Management System -->
+                  <div class="card text-center proCard">
+                    <div [class]="cardHeadStyle" class="card-header" style="font-weight: bold;">
+                      Organization Management System
+                    </div>
+                    <div [class]="cardBodyStyle" class="card-body">
+                      <img class="card-title" src="/management-system.jpg" alt="Management System" />
+                      <p class="card-text py-3">Maintains the details about the
+                        customer, which helps the user to
+                        analysis the entity in the organization
+                        for easy and smooth run.</p>
+                    </div>
+                    <div [class]="cardFooterStyle" class="card-footer">
+                      Technologies: Java, Java Swings, Applets, MySql.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+              <span [ngStyle]="{'color': themeLight ? '#58355E' : '#E1F2FE'}" style="font-size: xx-large;"><i
+                  class="bi bi-arrow-left-circle"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+              <span [ngStyle]="{'color': themeLight ? '#58355E' : '#E1F2FE'}" style="font-size: xx-large;"><i
+                  class="bi bi-arrow-right-circle"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <hr id="scrollspyCertification" [ngStyle]="{'background-color': themeLight ? '#58355E' : '#E1F2FE'}" />
+      </div>
+    </div>
+
+    <!-- Certification Section -->
+    <div class="container proDiv">
+      <div class="row  text-center">
+        <h1 [class]="expHead" class="text-center">CERTIFICATION</h1>
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/java8-cert.jpg" alt="Java 8">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Java SE 8 Features - Infosys
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/spring-boot-cert.jpeg" alt="Spring Boot">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Spring Boot - Infosys
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/full-stack-cert.jpg" alt="Java FullStack">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Java Full Stack with Spring Boot
+              and Angular
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/microservices-cert.jpg" alt="Microservices">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Microservice: An Overview -
+              Infosys
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/azure-devops-cert.png" alt="Azure Devops">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Azure DevOps Fundamentals
+              CI/CD
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <img [class]="cardBodyStyle" class="card-body" src="/selenium-cert.png" alt="Selenium">
+            <div [class]="cardFooterStyle" class="card-footer ">
+              Selenium WebDriver with Java
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>

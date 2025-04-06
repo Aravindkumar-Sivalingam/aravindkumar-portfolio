@@ -1,0 +1,1055 @@
+.body-light,
+.nav-dark,
+.card-body-dark,
+.nav-button-light {
+    background-color: #E1F2FE !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body-dark,
+.nav-light,
+.card-head-light,
+.card-footer-light,
+.nav-button-dark {
+    background-color: #58355E !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-body-light {
+    background-color: #58355E !important;
+    opacity: 0.8;
+}
+
+.card-head-dark,
+.card-footer-dark {
+    background-color: #c5e7ff !important;
+}
+
+.theme-switcher {
+    padding: 10px;
+    cursor: pointer;
+    color: #F9A828;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.nav-pills,
+.nav-link.active {
+    background-color: transparent !important;
+    border: none !important;
+    --bs-nav-pills-link-active-color: #F9A828 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.nav-item-dark,
+.name-light,
+.job-title-light,
+.about-light,
+.about-desc-light,
+.exp-head-light,
+.exp-title-light,
+.exp-desc-light,
+.card-head-dark,
+.card-body-dark,
+.card-footer-dark {
+    color: #58355E;
+}
+
+.nav-item-light,
+.name-dark,
+.job-title-dark,
+.about-dark,
+.about-desc-dark,
+.exp-head-dark,
+.exp-title-dark,
+.exp-desc-dark,
+.card-head-light,
+.card-body-light,
+.card-footer-light {
+    color: #E1F2FE;
+}
+
+.name-light,
+.name-dark {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.job-title-light,
+.job-title-dark {
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+hr {
+    border: none;
+    height: 5px;
+}
+
+.about-light,
+.about-dark {
+    padding: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-desc-light,
+.about-desc-dark {
+    padding-top: 50px;
+    font-size: 1.3rem;
+}
+
+.exp-head-light,
+.exp-head-dark {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.exp-title-light,
+.exp-title-dark {
+    margin-top: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.exp-desc-light,
+.exp-desc-dark {
+    padding-top: 50px;
+    font-size: 1.3rem;
+}
+
+.project {
+    margin-top: 0 !important;
+    font-size: 1.1rem !important;
+    font-weight: normal !important;
+}
+
+.card-title {
+    max-width: 50%;
+}
+
+.card {
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+
+
+/*Responsive CSS*/
+
+@media (max-width: 2561px) {
+
+    .nav,
+    .theme-switcher {
+        font-size: 2rem;
+    }
+
+    .name-light,
+    .name-dark {
+        font-size: 5rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 2.5rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 5rem;
+        /* padding: 0px !important; */
+        margin: 0 !important;
+        font-size: 4rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 4rem;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin: rem; */
+        /* margin-bottom: 100px; */
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 2rem;
+    }
+
+    .project {
+        font-size: 1rem !important;
+    }
+
+    .last {
+        margin: 0;
+        padding-top: 5rem !important;
+        /* margin-bottom: 20px !important; */
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .proDiv {
+        max-width: 80% !important;
+    }
+
+    .proCard {
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 60% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 2000.98px) {
+
+    .nav {
+        font-size: 1rem;
+    }
+
+    .theme-switcher {
+        font-size: 1.5rem;
+    }
+
+    .name-light,
+    .name-dark {
+        font-size: 2.5rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 1rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 5rem;
+        /* padding: 0px !important; */
+        margin: 0 !important;
+        font-size: 2rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 2rem;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin: rem; */
+        /* margin-bottom: 100px; */
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 1.2rem;
+    }
+
+    .project {
+        font-size: 1rem !important;
+    }
+
+    .last {
+        margin: 0;
+        padding-top: 5rem !important;
+        /* margin-bottom: 20px !important; */
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .proDiv {
+        max-width: 100% !important;
+    }
+
+    .proCard {
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 60% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1799.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2.5rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 1rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 5rem;
+        /* padding: 0px !important; */
+        margin: 0 !important;
+        font-size: 2rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 2rem;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin: rem; */
+        /* margin-bottom: 100px; */
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 1.2rem;
+    }
+
+    .project {
+        font-size: 1rem !important;
+    }
+
+    .last {
+        margin: 0;
+        padding-top: 5rem !important;
+        /* margin-bottom: 20px !important; */
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .proDiv {
+        max-width: 100% !important;
+    }
+
+    .proCard {
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 60% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1599.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2.5rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 1rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 5rem;
+        /* padding: 0px !important; */
+        margin: 0 !important;
+        font-size: 2rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 2rem;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin: rem; */
+        /* margin-bottom: 100px; */
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 1.2rem;
+    }
+
+    .project {
+        font-size: 1rem !important;
+    }
+
+    .last {
+        margin: 0;
+        padding-top: 5rem !important;
+        /* margin-bottom: 20px !important; */
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .proDiv {
+        max-width: 80% !important;
+    }
+
+    .proCard {
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 60% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1399.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2.5rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 1rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 5rem;
+        /* padding: 0px !important; */
+        margin: 0 !important;
+        font-size: 2rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 2rem;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin: rem; */
+        /* margin-bottom: 100px; */
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 1.2rem;
+    }
+
+    .project {
+        font-size: 1rem !important;
+    }
+
+    .last {
+        margin: 0;
+        padding-top: 5rem !important;
+        /* margin-bottom: 20px !important; */
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .proDiv {
+        max-width: 80% !important;
+    }
+
+    .proCard {
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 60% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 1rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 1.5rem;
+        margin: 0 !important;
+        /* margin: 0 !important; */
+        /* padding: 1.2rem; */
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        margin: 0;
+        /* margin-bottom: 100px; */
+        padding-top: 7rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        /* padding-top: 20px; */
+        font-size: 1rem;
+    }
+
+    .project {
+        font-size: 0.8rem !important;
+    }
+
+    .last {
+        padding-top: 5rem !important;
+        margin-bottom: 20px !important;
+    }
+
+    hr {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .proDiv {
+        max-width: 80% !important;
+    }
+
+    .proCard {
+        margin-left: 200px !important;
+        margin-right: 200px !important;
+    }
+
+    .card {
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    img {
+        max-height: 17rem !important;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        max-width: 80% !important;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 0.8rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 1.5rem;
+        margin: 0 !important;
+        padding: 1.2rem;
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        margin-top: 0px;
+        padding: 0px !important;
+        margin-bottom: 100px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+    .project {
+        font-size: 0.8rem !important;
+    }
+
+    .last {
+        margin-bottom: 20px !important;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+
+    .proDiv {
+        max-width: 80% !important;
+    }
+
+    .proCard {
+        margin: 0 !important;
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        /* padding: 20px !important; */
+    }
+
+    .card {
+        /* margin-left: 150px !important; */
+        /* margin-right: 150px !important; */
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        max-width: 60%;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 0.8rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 1.5rem;
+        margin: 0 !important;
+        padding: 1.2rem;
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        margin-top: 0px;
+        margin-bottom: 100px;
+        padding: 0px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+    .project {
+        font-size: 0.8rem !important;
+    }
+
+    .last {
+        padding: 0px !important;
+        margin-bottom: 20px !important;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+
+    .proCard {
+        margin: 0 !important;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+        /* padding: 0 !important;*/
+    }
+
+    .card {
+        /* margin-left: 150px; */
+        /* margin-right: 150px; */
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        max-width: 60%;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .name-light,
+    .name-dark {
+        font-size: 2rem;
+    }
+
+    .job-title-light,
+    .job-title-dark {
+        font-size: 0.8rem;
+    }
+
+    .about-light,
+    .about-dark {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .about-desc-light,
+    .about-desc-dark {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .exp-head-light,
+    .exp-head-dark {
+        font-size: 1.5rem;
+        margin: 0 !important;
+        padding: 1rem;
+    }
+
+    .exp-title-light,
+    .exp-title-dark {
+        /* margin-top: 10px; */
+        margin-bottom: 100px;
+        padding-top: 0 !important;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .last {
+        margin-bottom: 20px !important;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+
+    .exp-desc-light,
+    .exp-desc-dark {
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    .proCard {
+        margin: 0 !important;
+        /* padding: 0 !important; */
+    }
+
+    .card {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card-head-dark,
+    .card-head-light {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        max-width: 80%;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: .9rem;
+    }
+
+    .card-footer-dark,
+    .card-footer-light {
+        font-size: 0.9rem;
+    }
+}
